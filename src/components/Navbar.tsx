@@ -1,24 +1,13 @@
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Button } from './ui/button';
-import { 
-  Menu, 
-  X, 
-  User, 
-  MessageSquare, 
-  FolderOpen,
-  Bell,
-  LogIn
-} from 'lucide-react';
 import { useState } from 'react';
-import { Badge } from './ui/badge';
-import { CustomDropdown, CustomDropdownItem, CustomDropdownSeparator } from './CustomDropdown';
+import { Link, useNavigate } from 'react-router-dom';
+import { Menu, X, User, LogOut, Settings, Shield, Award, ChevronDown } from 'lucide-react';
+import { Button } from './ui/button';
 import { useAuth } from '../contexts/AuthContext';
-
-const logoImage = '/logo.png';
+import { CustomDropdown } from './CustomDropdown';
+import logoImage from '../public/logo.png';
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const location = useLocation();
   const navigate = useNavigate();
   const { user, profile, signOut } = useAuth();
 

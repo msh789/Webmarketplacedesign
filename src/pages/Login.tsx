@@ -1,17 +1,13 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { Eye, EyeOff, Mail, Lock, Chrome } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
-import { Alert, AlertDescription } from '../components/ui/alert';
-import { Separator } from '../components/ui/separator';
 import { Checkbox } from '../components/ui/checkbox';
-import { Mail, Lock, Chrome, Github, Loader2, LogIn as LoginIcon, AlertCircle } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
 import { useAuth } from '../contexts/AuthContext';
-
-const logoImage = '/logo.png';
+import { toast } from 'sonner';
+import logoImage from '../public/logo.png';
 
 export function Login() {
   const navigate = useNavigate();

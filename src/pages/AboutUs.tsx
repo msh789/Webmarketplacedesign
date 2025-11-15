@@ -1,7 +1,8 @@
+import { CheckCircle, Globe, Users, Award, TrendingUp, Heart } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
-import { Target, Heart, Globe, TrendingUp, Users, Award, Shield } from 'lucide-react';
-
-const logoImage = '/logo.png';
+import { Button } from '../components/ui/button';
+import { Link } from 'react-router-dom';
+import logoImage from '../public/logo.png';
 
 export function AboutUs() {
   return (
@@ -47,7 +48,7 @@ export function AboutUs() {
           <div className="grid md:grid-cols-2 gap-12">
             <Card className="border-green-200 bg-green-50">
               <CardContent className="p-8">
-                <Target className="h-12 w-12 text-green-600 mb-4" />
+                <CheckCircle className="h-12 w-12 text-green-600 mb-4" />
                 <h2 className="text-2xl text-slate-900 mb-4">Our Mission</h2>
                 <p className="text-slate-700">
                   To revolutionize how engineering talent connects with impactful projects worldwide, 
@@ -100,11 +101,6 @@ export function AboutUs() {
                 icon: Award,
                 title: 'Excellence',
                 description: 'We maintain the highest standards for quality, professionalism, and expertise, ensuring exceptional outcomes for all projects.'
-              },
-              {
-                icon: Shield,
-                title: 'Trust',
-                description: 'Transparency, security, and integrity form the foundation of every interaction on our platform.'
               },
               {
                 icon: TrendingUp,
@@ -205,6 +201,11 @@ export function AboutUs() {
           <p className="text-xl text-green-50 mb-8">
             Be part of the global community building a sustainable future through engineering excellence
           </p>
+          <Link to="/signup">
+            <Button className="bg-green-500 hover:bg-green-600 text-white">
+              Sign Up Now
+            </Button>
+          </Link>
         </div>
       </section>
     </div>

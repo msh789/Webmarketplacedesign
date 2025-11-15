@@ -1,10 +1,10 @@
 import { AlertCircle, CheckCircle, ExternalLink } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from './ui/alert';
 import { Button } from './ui/button';
+import { projectId, publicAnonKey } from '../utils/supabase/info';
 
 export function SupabaseStatus() {
-  const supabaseUrl = import.meta.env?.VITE_SUPABASE_URL || '';
-  const isConfigured = supabaseUrl && !supabaseUrl.includes('placeholder');
+  const isConfigured = projectId && publicAnonKey && !projectId.includes('placeholder');
 
   if (isConfigured) {
     return (

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Mail, MapPin, Phone } from 'lucide-react';
-
-const logoImage = '/logo.png';
+import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import logoImage from '../public/logo.png';
 
 export function Footer() {
   return (

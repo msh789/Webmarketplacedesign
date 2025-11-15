@@ -1,17 +1,18 @@
 import { createClient } from '@supabase/supabase-js';
+import { projectId, publicAnonKey } from '../utils/supabase/info';
 
-// Get environment variables
-const supabaseUrl = import.meta.env?.VITE_SUPABASE_URL || '';
-const supabaseAnonKey = import.meta.env?.VITE_SUPABASE_ANON_KEY || '';
+// Build Supabase URL from project ID
+const supabaseUrl = `https://${projectId}.supabase.co`;
+const supabaseAnonKey = publicAnonKey;
 
-// Validate environment variables
-if (!supabaseUrl || !supabaseAnonKey || supabaseUrl.includes('placeholder')) {
+// Validate configuration
+if (!projectId || !publicAnonKey || projectId.includes('placeholder')) {
   console.warn(
     '⚠️ Supabase not configured!\n\n' +
     'To use the backend:\n' +
     '1. Create a Supabase project at https://supabase.com\n' +
     '2. Copy your Project URL and anon key from Settings > API\n' +
-    '3. Update the .env file with your credentials\n' +
+    '3. Update /utils/supabase/info.tsx with your credentials\n' +
     '4. Restart the dev server\n\n' +
     'The app will work in demo mode until configured.'
   );
