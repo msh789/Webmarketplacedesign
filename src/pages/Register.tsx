@@ -4,7 +4,7 @@ import { Separator } from '../components/ui/separator';
 import { Mail, Lock, User, Briefcase, Building2, Chrome, Github, CheckCircle, Loader2, UserPlus } from 'lucide-react';
 import { toast } from 'sonner@2.0.3';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from 'figma:asset/aaa55a9a310e7ff58eb80d1906c3cd7234f69a05.png';
+import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
 
 export function Register() {
   const navigate = useNavigate();

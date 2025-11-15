@@ -1,6 +1,6 @@
 import { Card, CardContent } from '../components/ui/card';
 import { Target, Heart, Globe, TrendingUp, Users, Award } from 'lucide-react';
-import logoImage from 'figma:asset/aaa55a9a310e7ff58eb80d1906c3cd7234f69a05.png';
+import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
 
 export function AboutUs() {
   return (
