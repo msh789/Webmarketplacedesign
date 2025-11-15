@@ -1,7 +1,13 @@
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Label } from '../components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
+import { Alert, AlertDescription } from '../components/ui/alert';
 import { Separator } from '../components/ui/separator';
 import { Checkbox } from '../components/ui/checkbox';
-import { Mail, Lock, Chrome, Github, Loader2, LogIn as LoginIcon } from 'lucide-react';
+import { Mail, Lock, Chrome, Github, Loader2, LogIn as LoginIcon, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner@2.0.3';
 import { useAuth } from '../contexts/AuthContext';
 import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
