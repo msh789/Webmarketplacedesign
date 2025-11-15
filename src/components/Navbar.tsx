@@ -13,7 +13,8 @@ import { useState } from 'react';
 import { Badge } from './ui/badge';
 import { CustomDropdown, CustomDropdownItem, CustomDropdownSeparator } from './CustomDropdown';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
+
+const logoImage = '/logo.png';
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

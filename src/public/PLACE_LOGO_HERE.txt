@@ -1,0 +1,49 @@
+⚠️ ACTION REQUIRED: Add Your Logo
+
+================================================================
+IMPORTANT: Before deploying to Vercel, you must add your logo!
+================================================================
+
+📋 STEPS TO ADD YOUR LOGO:
+
+1. Download your SETReG logo from Figma Make assets
+   - Go to the assets panel in Figma Make
+   - Find: 0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png
+   - Download the logo file
+
+2. Rename the file to: logo.png
+
+3. Place it in this /public folder:
+   ✅ /public/logo.png
+
+4. Delete this instruction file (PLACE_LOGO_HERE.txt)
+
+5. Push to GitHub and Vercel will serve it automatically!
+
+================================================================
+
+📁 Expected file structure:
+your-project/
+├── public/
+│   └── logo.png          ← Your logo goes here!
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+└── ...
+
+================================================================
+
+✅ Once logo.png is in place, it will be accessible at:
+   https://your-domain.vercel.app/logo.png
+
+================================================================
+
+🔧 Files already configured to use /logo.png:
+   ✓ /src/components/Navbar.tsx
+   ✓ /src/components/Footer.tsx
+   ✓ /src/pages/Login.tsx
+   ✓ /src/pages/Register.tsx
+   ✓ /src/pages/AboutUs.tsx
+
+================================================================

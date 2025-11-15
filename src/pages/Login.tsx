@@ -10,7 +10,8 @@ import { Checkbox } from '../components/ui/checkbox';
 import { Mail, Lock, Chrome, Github, Loader2, LogIn as LoginIcon, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner@2.0.3';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
+
+const logoImage = '/logo.png';
 
 export function Login() {
   const navigate = useNavigate();

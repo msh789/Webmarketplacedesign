@@ -1,6 +1,7 @@
 import { Card, CardContent } from '../components/ui/card';
-import { Target, Heart, Globe, TrendingUp, Users, Award } from 'lucide-react';
-import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
+import { Target, Heart, Globe, TrendingUp, Users, Award, Shield } from 'lucide-react';
+
+const logoImage = '/logo.png';
 
 export function AboutUs() {
   return (
@@ -209,6 +210,3 @@ export function AboutUs() {
     </div>
   );
 }
-
-// Add Shield import
-import { Shield } from 'lucide-react';
