@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, Mail, Lock, Chrome } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, Chrome, Github, Loader2, LogIn as LoginIcon, AlertCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { Checkbox } from '../components/ui/checkbox';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../components/ui/card';
+import { Alert, AlertDescription } from '../components/ui/alert';
+import { Separator } from '../components/ui/separator';
 import { useAuth } from '../contexts/AuthContext';
 import { toast } from 'sonner';
 import logoImage from '../public/logo.png';

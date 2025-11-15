@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, Mail, Lock, User as UserIcon, Briefcase, Chrome, Github } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, User as UserIcon, Briefcase, Chrome, Github, Loader2, UserPlus, CheckCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { RadioGroup, RadioGroupItem } from '../components/ui/radio-group';
 import { Checkbox } from '../components/ui/checkbox';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../components/ui/card';
+import { Separator } from '../components/ui/separator';
 import { useAuth } from '../contexts/AuthContext';
 import { toast } from 'sonner';
 import logoImage from '../public/logo.png';

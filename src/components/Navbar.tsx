@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, User, LogOut, Settings, Shield, Award, ChevronDown } from 'lucide-react';
+import { Menu, X, User, LogOut, MessageSquare, FolderOpen, Bell, LogIn } from 'lucide-react';
 import { Button } from './ui/button';
+import { Badge } from './ui/badge';
 import { useAuth } from '../contexts/AuthContext';
-import { CustomDropdown } from './CustomDropdown';
+import { CustomDropdown, CustomDropdownItem, CustomDropdownSeparator } from './CustomDropdown';
 import logoImage from '../public/logo.png';
 
 export function Navbar() {
