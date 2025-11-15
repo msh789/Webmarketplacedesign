@@ -13,7 +13,7 @@ import { useState } from 'react';
 import { Badge } from './ui/badge';
 import { CustomDropdown, CustomDropdownItem, CustomDropdownSeparator } from './CustomDropdown';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
+import logoImage from 'figma:asset/aaa55a9a310e7ff58eb80d1906c3cd7234f69a05.png';
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,10 +31,10 @@ export function Navbar() {
   return (
     <nav className="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center py-2">
-              <img src={logoImage} alt="SETReG Consultancy" className="h-14" />
+            <Link to="/" className="flex items-center">
+              <img src={logoImage} alt="SETReG Consultancy" className="h-12" />
             </Link>
           </div>
 

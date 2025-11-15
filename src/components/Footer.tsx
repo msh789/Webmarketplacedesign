@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { BriefcaseBusiness, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-import logoImage from 'figma:asset/0b02f3ba1aacf3b6bb856b4f4a79b14ac009355c.png';
+import { Mail, MapPin, Phone } from 'lucide-react';
+import logoImage from 'figma:asset/aaa55a9a310e7ff58eb80d1906c3cd7234f69a05.png';
 
 export function Footer() {
   return (
@@ -17,16 +17,13 @@ export function Footer() {
             </p>
             <div className="flex space-x-3 mt-4">
               <a href="#" className="hover:text-green-500 transition-colors">
-                <Facebook className="h-5 w-5" />
+                <Mail className="h-5 w-5" />
               </a>
               <a href="#" className="hover:text-green-500 transition-colors">
-                <Twitter className="h-5 w-5" />
+                <MapPin className="h-5 w-5" />
               </a>
               <a href="#" className="hover:text-green-500 transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-green-500 transition-colors">
-                <Instagram className="h-5 w-5" />
+                <Phone className="h-5 w-5" />
               </a>
             </div>
           </div>
