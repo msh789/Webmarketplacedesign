@@ -10,7 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img src={logoImage} alt="SETReG Consultancy" className="h-24" style={{ filter: 'brightness(0) invert(1)' }} />
+              <img src={logoImage} alt="SETReG Consultancy" className="h-16" style={{ filter: 'brightness(0) invert(1)' }} />
             </div>
             <p className="text-sm">
               Connecting engineering talent with opportunities worldwide. Building sustainable solutions for tomorrow.

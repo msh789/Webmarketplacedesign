@@ -10,7 +10,7 @@ export function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img src={logoImage} alt="SETReG" className="h-40 mb-8" style={{ filter: 'brightness(0) invert(1)' }} />
+              <img src={logoImage} alt="SETReG" className="h-24 mb-8" style={{ filter: 'brightness(0) invert(1)' }} />
               <h1 className="text-5xl mb-6">Pioneering the Green Revolution</h1>
               <p className="text-xl text-green-50">
                 SETReG (Sustainable Engineering Talent Registry) is transforming how engineering projects connect with top talent worldwide.

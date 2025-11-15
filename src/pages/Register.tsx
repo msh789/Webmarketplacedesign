@@ -139,7 +139,7 @@ export function Register() {
     <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-green-50 to-slate-50 py-12 px-4">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-8">
-          <img src={logoImage} alt="SETReG Consultancy" className="h-36 mx-auto mb-6" />
+          <img src={logoImage} alt="SETReG Consultancy" className="h-24 mx-auto mb-6" />
           <h1 className="text-3xl text-slate-900 mb-2">Join SETReG</h1>
           <p className="text-slate-600">Create your account and start connecting</p>
         </div>
