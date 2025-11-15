@@ -72,7 +72,7 @@ export function Login() {
     <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-green-50 to-slate-50 py-12 px-4 flex items-center justify-center">
       <div className="max-w-md w-full">
         <div className="text-center mb-8">
-          <img src={logoImage} alt="SETReG Consultancy" className="h-24 mx-auto mb-6" />
+          <img src={logoImage} alt="SETReG Consultancy" className="h-32 mx-auto mb-6" />
           <h1 className="text-3xl text-slate-900 mb-2">Welcome Back</h1>
           <p className="text-slate-600">Sign in to your SETReG account</p>
         </div>

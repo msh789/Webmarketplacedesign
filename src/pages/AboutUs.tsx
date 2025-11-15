@@ -14,9 +14,6 @@ export function AboutUs() {
             <div>
               <img src={logoImage} alt="SETReG" className="h-24 mb-8" style={{ filter: 'brightness(0) invert(1)' }} />
               <h1 className="text-5xl mb-6">Pioneering the Green Revolution</h1>
-              <p className="text-xl text-green-50">
-                SETReG (Sustainable Engineering Talent Registry) is transforming how engineering projects connect with top talent worldwide.
-              </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <div className="grid grid-cols-2 gap-6">

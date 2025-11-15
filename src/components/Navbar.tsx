@@ -25,7 +25,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={logoImage} alt="SETReG Consultancy" className="h-12" />
+              <img src={logoImage} alt="SETReG Consultancy" className="h-24" />
             </Link>
           </div>
 
